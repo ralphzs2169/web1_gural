@@ -56,9 +56,9 @@
 	align-items: center;
 	text-align: center;
 	background-image: linear-gradient(rgb(0 0 0 / 0.5), rgb(0 0 0 / 0.5)),
-    url('bondingpic.jpg');
-    background-size: cover;
-    background-position: center;
+   	url('bondingpic.jpg');
+    	background-size: cover;
+    	background-position: center;
 	max-width: min(500px, 80%);
 	height:500px;
 	font-family: "Lilita One", serif;
