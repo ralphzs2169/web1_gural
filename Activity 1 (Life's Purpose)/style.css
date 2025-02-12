@@ -15,7 +15,7 @@
 	background-position: center;
 }
 .title{
-	font-size: 3rem;	
+	font-size: clamp(2rem, 4vw, 3rem);	
 	color: white;
 	position: relative;
 	bottom:70px;
@@ -59,12 +59,12 @@
     url('bondingpic.jpg');
     background-size: cover;
     background-position: center;
-	width: 500px;
+	max-width: min(500px, 80%);
 	height:500px;
 	font-family: "Lilita One", serif;
 	font-weight: 400;
 	font-style: normal;
-	font-size:1.5rem;
+	font-size: clamp(1rem, 2.5vw, 1.5rem);
 	color: white;
 	border-radius: 20px;
 	line-height: 2em;
